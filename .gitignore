@@ -1,1 +1,42 @@
-/build/
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+*.project
+*.classpath
+
+###########
+# BACKEND #
+###########
+
+.settings
+.idea
+*.launch
+.target
+.buildpath
+target
+*.iml
+.classpath
+.project
+.tmp
+.merge_file*
+.springBeans
+nbactions*
+
+# BOTH
+
+.project
+.classpath
+build
+.idea
+.settings
+nbproject
